@@ -1,0 +1,165 @@
+/* register page  */
+.ptop{
+    padding-top: 80px;
+}
+.r-button{
+    background-color: transparent;
+    color: black;
+    width: 87px;
+    height: 41px;
+    border-radius: 15px;
+    margin: 3px;
+    margin-left: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+.r-button:hover{
+    background-color: black;
+    color: white;
+}
+.r-center{
+    text-align: center;
+}
+ 
+.r-nav-buttons{
+    color: black;
+    text-align: center;
+    background-color: transparent;
+    width: 100px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid black;
+    text-decoration: none;
+    padding-top: 10px;
+    display: block;
+}
+.r-nav-notification{
+    color: black;
+    text-align: center;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid black;
+    text-decoration: none;
+    padding-top: 10px;
+    display: block;
+}
+.r-nav-notification:hover, .r-nav-buttons:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid black;
+}
+.r-nav-fixed{
+    /* background-color: black; */
+    /* box-shadow: 0 0 10px black; */
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    font-weight: 500;
+}
+/* login page  */
+
+.login-page{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.login-card1{
+    height: 620px;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 19px;
+    margin: 50px 0px 0px 268px;
+    width: 451px;
+    box-shadow: 0 0 10px black;               
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* student home */
+/* side nav bar */
+.openSidebarBtn1 {
+    /* position: absolute; */
+    top: 46px;
+    right: 0px;
+    font-size: 17px;
+    cursor: pointer;
+    color: black;
+}
+.sidebarr{
+    height: 612px;
+    width: 0;
+    position: fixed;
+    top: 85px;
+    right: 0;
+    box-shadow: 0 0 10px black;            
+    overflow-x: hidden;
+    transition: 0.7s;
+    padding-top: 10px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(231deg, rgba(2,0,36,1) 0%, rgba(63,63,161,1) 50%, rgba(38,123,199,1) 61%, rgba(0,212,255,1) 100%); */
+    --webkit-backdrop-filter: blur(17px);
+    backdrop-filter: blur(17px);
+}
+.sidebarr img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 10px black;
+}
+.sidebarr a{
+    padding:1px 1px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-top: 10px;
+    transition: color 0.3s , transform 0.3s;
+    transition:0.3s;
+    
+}
+.sidebarr a:hover{
+    /* color: white; */
+    /* transform: translateX(12px) transform 0.3s !important; */
+    transform: translateX(12px) transform 0.3s;
+    padding-left: 30px;
+    font-weight: 500;
+}
+
+.r-login-card1{
+    height: 900px;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 19px;
+    margin: 3px 0px 0px 250px;
+    width: 442px;
+    box-shadow: 0 0 10px black;
+    display: block;             
+}
+.r-login-card2{
+    height: 665px;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 19px;
+    margin: 20px 0px 0px 500px;
+    width: 442px;
+    box-shadow: 0 0 10px black;
+    /* display: block;       */
+    
+}
+.r-radio{
+    display: flex;
+    /* font-size: 10px;; */
+    width: 110px;
+    padding-left: 60px;
+}
